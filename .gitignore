@@ -1,0 +1,35 @@
+*.class
+./*.log
+
+# sbt specific
+dist/*
+**/target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+.bsp/
+
+# Scala-IDE specific
+.scala_dependencies
+.cache
+.idea/
+
+*.env
+tmp/
+
+# OS X
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# Vim
+*.swp
+*.swo
+/app/node_modules/
+/app/.parcel-cache/
+
+# Ignore Scala.js build artifacts
+*.js
+*.js.map
